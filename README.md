@@ -1,11 +1,10 @@
-# go-fix-exchange
-This project aims to build a backend system that can communicate with brokers via the [FIX (Financial Information eXchange)](https://www.fixtrading.org/what-is-fix/) protocol to:
+# go-idx-fix-client
+go-idx-fix-client is a Go-based middleware for connecting to Indonesia Stock Exchange (IDX) brokers using the [FIX (Financial Information eXchange)](https://www.fixtrading.org/what-is-fix/) protocol to:
 * Authenticate clients
 * Subscribe to market data (e.g., order book)
 * Send trade orders (buy/sell)
 * Receive execution reports
 * Simulate or connect to real-world broker FIX gateways
-
 ## 🧭 Architecture Flow
 <p align="center">
   <img src="flow.png" alt="FIX Protocol Flowchart" />

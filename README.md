@@ -6,6 +6,10 @@ This project aims to build a backend system that can communicate with brokers vi
 * Receive execution reports
 * Simulate or connect to real-world broker FIX gateways
 
+## 🧭 Architecture Flow
+<p align="center">
+  <img src="flow.png" alt="FIX Protocol Flowchart" />
+</p>
 
 ## 🧠 Key Concepts
 | Component          | Description   |
@@ -14,10 +18,6 @@ This project aims to build a backend system that can communicate with brokers vi
 |**Broker**          |The counterparty or gateway that routes client orders to the market|
 |**Market Provider** |The source of liquidity (exchange, ECN, etc.)|
 |**Execution Report**|A message (35=8) confirming trade status (filled, rejected, etc.)|
-## 🧭 Architecture Flow
-<p align="center">
-  <img src="flow.png" alt="FIX Protocol Flowchart" />
-</p>
 
 ## 🚀 Features
 - [ ] FIX session manager (Logon, Logout, Heartbeat, etc.)
